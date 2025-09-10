@@ -78,7 +78,7 @@ To help you get started, this repository includes sample datasets:
 
    * ```Sample_Phenotype_Data.csv```: A corresponding phenotype file with trait values for the same individuals.
 
-These files are pre-configured in the notebook, so you can run the pipeline out-of-the-box to see how it works.
+These files can be configured in the notebook, so you can run the pipeline out-of-the-box to see how it works.
 
 ## How to Cite
 
@@ -86,5 +86,5 @@ If you use CustomGWAS in your research, please cite our manuscript:
 
 [Details will be available once our work is published, for the time being you can use the repo link to cite our work]
 
-### License
+## License
 This project is licensed under the MIT License - see the ```LICENSE.md``` file for details.
