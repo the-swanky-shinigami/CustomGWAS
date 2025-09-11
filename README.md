@@ -86,5 +86,9 @@ If you use CustomGWAS in your research, please cite our manuscript:
 
 [Details will be available once our work is published, for the time being you can use the repo link to cite our work]
 
+## How to Contribute
+
+We actively welcome contributions from the community, whether it's new features, bug fixes, or enhancements. Researchers and developers are encouraged to fork the repository, suggest modifications, and submit pull requests to help make CustomGWAS even more robust and accessible for all users.
+
 ## License
 This project is licensed under the MIT License - see the ```LICENSE.md``` file for details.
