@@ -66,6 +66,8 @@ Docker abstracts away the underlying operating system. Running this pipeline in 
    ```
 4. Open the Jupyter link provided in the terminal (e.g., `http://127.0.0.1:8888/...`).
 
+> If prompted for a password to connect to the kernel, use "customgwas"
+
 **Caveat - Docker Memory Constraints:** 
 For exceptionally large datasets (e.g. Rice 3KRG, containing over 3000 samples and millions of SNPs), Docker's default memory limits (usually 2-8 GB) will trigger `OOM (Out Of Memory)` Kernel crashes or `DLASCL` math errors. 
 - **Solution**: Open Docker Desktop Settings -> Resources, and increase your Memory Limit to at least 16GB (or 32GB+ for massive arrays), and increase Swap. 
@@ -116,7 +118,7 @@ If you wish to move this tool to another computer and run it via Docker, simply 
 
 ## 📝 Outputs and Reporting
 
-All outputs for a single execution are isolated within timestamped directories under `runs/` (e.g. `runs/Anandan_GWAS_v3_output_20260428_112911`). 
+All outputs for a single execution are isolated within timestamped directories under `runs/` (e.g. `runs/GWAS_v3_output_20260428_112911`). 
 
 Inside, you will find:
 1. `*_gwas_results.csv`: The master table containing all calculated p-values and effects for all models.
@@ -124,3 +126,23 @@ Inside, you will find:
 3. `*_Summary_Report.md` / `*.pdf`: Auto-generated, presentation-ready documents outlining the quality control steps, genomic inflation, and final findings.
 4. `*.html`: Interactive plots.
 5. `pipeline.log`: Verbose trace of the entire execution.
+
+## Included Sample Data
+
+To help you get started, this repository includes sample datasets:
+
+   * ```Sample_Genotype_Data.csv```: A sample genotype file containing SNP data for a number of individuals.
+
+   * ```Sample_Phenotype_Data.csv```: A corresponding phenotype file with trait values for the same individuals.
+
+These files can be configured in the notebook, so you can run the pipeline out-of-the-box to see how it works.
+
+## How to Cite
+
+If you use CustomGWAS in your research, please cite our manuscript:
+
+[Details will be available once our work is published, for the time being you can use the repo link to cite our work]
+
+## How to Contribute
+
+We actively welcome contributions from the community, whether it's new features, bug fixes, or enhancements. Researchers and developers are encouraged to fork the repository, suggest modifications, and submit pull requests to help make CustomGWAS even more robust and accessible for all users.
