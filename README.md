@@ -1,6 +1,6 @@
-# CustomGWAS Pipeline v3
+# CustomGWAS Pipeline
 
-CustomGWAS Pipeline v3 is an end-to-end GWAS (Genome-Wide Association Study) workflow implemented as an interactive Python Jupyter notebook. It provides scalable genotype ingestion, robust quality control, multi-model association testing, post-GWAS follow-up, and reproducible reporting.
+CustomGWAS Pipeline is an end-to-end GWAS (Genome-Wide Association Study) workflow implemented as an interactive Python Jupyter notebook. It provides scalable genotype ingestion, robust quality control, multi-model association testing, post-GWAS follow-up, and reproducible reporting.
 
 This pipeline wraps high-performance libraries (like `pandas-plink`) and mathematically rigorous linear models in a user-friendly, transparent environment, effectively abstracting away the typical boilerplate code of GWAS while allowing researchers complete control over their parameters.
 
