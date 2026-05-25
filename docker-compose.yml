@@ -1,0 +1,18 @@
+services:
+  customgwas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: customgwas:full
+    container_name: customgwas
+    ports:
+      - "8888:8888"
+    working_dir: /work
+    volumes:
+      - ./:/work
+    environment:
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:-customgwas}
+      - R_EXECUTABLE=/usr/bin/Rscript
+      - TZ=${TZ:-Asia/Kolkata}
+    shm_size: "2gb"
+    restart: "no"
