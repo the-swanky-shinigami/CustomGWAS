@@ -146,3 +146,14 @@ If you use CustomGWAS in your research, please cite our manuscript:
 ## How to Contribute
 
 We actively welcome contributions from the community, whether it's new features, bug fixes, or enhancements. Researchers and developers are encouraged to fork the repository, suggest modifications, and submit pull requests to help make CustomGWAS even more robust and accessible for all users.
+
+## Authors and Contributors (ORCIDs)
+
+Saumya Dwivedi: 0009-0007-5524-9582
+Adithya V.: 0000-0001-8977-1984
+Rajesh R.: 0000-0001-8648-1041
+Alagu Manickavelu: 0000-0003-2875-2290
+
+Corresponding Author: Alagu Manickavelu
+Email:  amanicks@cukerala.ac.in
+
