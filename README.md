@@ -1,5 +1,8 @@
 # CustomGWAS Pipeline
 
+[![DOI](https://img.shields.io/badge/DOI-10.21203%2Frs.3.rs--10466317%2Fv1-blue.svg)](https://doi.org/10.21203/rs.3.rs-10466317/v1)
+[![Preprint](https://img.shields.io/badge/Preprint-Research_Square-brightgreen.svg)](https://www.researchsquare.com/article/rs-10466317/v1)
+
 CustomGWAS Pipeline is an end-to-end GWAS (Genome-Wide Association Study) workflow implemented as an interactive Python Jupyter notebook. It provides scalable genotype ingestion, robust quality control, multi-model association testing, post-GWAS follow-up, and reproducible reporting.
 
 This pipeline wraps high-performance libraries (like `pandas-plink`) and mathematically rigorous linear models in a user-friendly, transparent environment, effectively abstracting away the typical boilerplate code of GWAS while allowing researchers complete control over their parameters.
@@ -141,7 +144,20 @@ These files can be configured in the notebook, so you can run the pipeline out-o
 
 If you use CustomGWAS in your research, please cite our manuscript:
 
-[Details will be available once our work is published, for the time being you can use the repo link to cite our work]
+> Saumya Dwivedi, Adithya V, Rajesh R. et al. CustomGWAS: A Standardized End-to-End Framework for Reproducible Genome-Wide Association Studies, 14 September 2026, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-10466317/v1]
+
+### BibTeX
+
+```bibtex
+@article{Dwivedi2026CustomGWAS,
+  author    = {Dwivedi, Saumya and Adithya, V. and Rajesh, R. and Manickavelu, Alagu},
+  title     = {CustomGWAS: A Standardized End-to-End Framework for Reproducible Genome-Wide Association Studies},
+  journal   = {Research Square (Preprint)},
+  year      = {2026},
+  doi       = {10.21203/rs.3.rs-10466317/v1},
+  url       = {[https://doi.org/10.21203/rs.3.rs-10466317/v1](https://doi.org/10.21203/rs.3.rs-10466317/v1)}
+}
+```
 
 ## How to Contribute
 
