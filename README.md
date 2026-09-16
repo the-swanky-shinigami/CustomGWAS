@@ -142,7 +142,7 @@ These files can be configured in the notebook, so you can run the pipeline out-o
 
 ## How to Cite
 
-If you use CustomGWAS in your research, please cite our manuscript:
+If you use CustomGWAS in your research, please cite our preprint:
 
 > Saumya Dwivedi, Adithya V, Rajesh R. et al. CustomGWAS: A Standardized End-to-End Framework for Reproducible Genome-Wide Association Studies, 14 September 2026, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-10466317/v1]
 
